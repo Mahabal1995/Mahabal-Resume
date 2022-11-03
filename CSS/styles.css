@@ -239,7 +239,7 @@ a{
     border: none;
     width: 100%;
     align-items: flex-start;
-    height: 30px;
+    height: fit-content;
     font-weight: 700;
     display: flex;
     justify-content: space-between;
