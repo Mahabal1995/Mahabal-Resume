@@ -159,7 +159,7 @@ a{
 }
 
 .education{
-    margin-top: -15px;
+   margin: -20px 0 50px 0;
 }
 
 .education li{
@@ -233,6 +233,44 @@ a{
     margin-right: 4px;
     /* border: 2px solid #333; */
 
+}
+
+.btn{
+    border: none;
+    width: 100%;
+    align-items: flex-start;
+    height: 30px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 14px 0 16px;    
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+
+.arrow-rotate{
+/* border: 1px solid red; */
+transform: rotateX(180deg);
+padding: 3px;
+}
+
+.panel{
+    display: none;
+    padding-left: 40px;
+    font-weight: 400;
+}
+
+.toggle-display{
+    display: block;
+}
+
+.btn{
+    color: black;
+}
+
+.toggle-btn-color{
+    color : black;
 }
 
 @media (max-width: 1000px) {
