@@ -261,6 +261,10 @@ padding: 3px;
     font-weight: 400;
 }
 
+.panel p span{
+    font-weight: 700;
+}
+
 .toggle-display{
     display: block;
 }
@@ -289,6 +293,10 @@ padding: 3px;
     }
     .interest ul{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .interest ul li{
+        margin-left: 0 !important; 
     }
     .skills .box{
         grid-template-columns: repeat(1,1fr);
